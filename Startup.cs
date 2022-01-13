@@ -102,6 +102,7 @@ namespace Shop
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapSwagger();
             });
         }
     }
